@@ -1,6 +1,7 @@
 ### Manual
 cold_start_problem/cold_start_model/.venv/
 cold_start_problem/cold_start_model/.cache/
+cold_start_problem/cold_start_model/.ipynb_checkpoints/
 cold_start_problem/data/trained_als_factors.npy
 cold_start_problem/data/fair_als_factors.npy
 *.cache

@@ -30,3 +30,12 @@ python3 upstart.py -s pipeline
 
 По файлу с тэгами `./cold_start_problem/data/tag_dataset.pkl` и `./cold_start_problem/data/fair_als_factors.npy` будет сформирован выходной файл `./cold_start_problem/data/trained_als_factors.npy` с результатом работы нейросети.
 
+Для упрощения исследовательского анализа датасета можно использовать [jupyter notebook](cold_start_problem/cold_start_model/cold_start_example.ipynb)
+
+
+Чтобы запустить ноутбук, воспользуйтесь командой `jupyter`:
+
+```shell script
+python3 upstart.py -s jupyter
+```
+
