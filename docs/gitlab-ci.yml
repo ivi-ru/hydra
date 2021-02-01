@@ -1,0 +1,13 @@
+stages:
+  - pages
+
+pages:
+ stage: docs
+ image: alpine:latest
+ script:
+   - apk add --update nodejs npm
+   - npm install -g redoc-cli
+   - redoc-cli bundle -o public/index.html docs.yaml
+ artifacts:
+   paths:
+     - public
